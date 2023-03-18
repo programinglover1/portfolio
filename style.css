@@ -1,10 +1,10 @@
 body{
-
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1{
-    font: 50px;
+    font-size: 50px;
 }
 .name-highlighter{
     color: orange;
@@ -13,8 +13,69 @@ h1{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
+    padding-top: 20px;
     float: left;
 }
 .half-width img{
     width: 100%;
+}
+.hero-part{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 700px;
+}
+.details{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Link-button{
+    background-image:linear-gradient( 45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+}
+.half-width p{
+    margin-bottom: 50px;
+}
+.Link-buttons{
+    background-image:linear-gradient( 45deg, rgb(236, 97, 139), rgb(219, 4, 105));
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+}
+.exd-one{
+    border-radius: 10px ;
+    box-shadow: 20px 20px 40px gray;
+    height: 350px;
+    border-left: 5px solid;
+    border-image:linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+.exd-tow{
+    border-radius: 10px ;
+    box-shadow: 20px 20px 40px gray;
+    height: 350px;
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(104, 134, 235), rgb(3, 53, 218));
+    border-image-slice: 1;
+
+}
+
+h5{
+    color: orange;
+}
+.experience-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
